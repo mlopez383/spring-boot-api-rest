@@ -17,13 +17,14 @@ public class Customer {
   private String name;
   private Integer age;
 
-  Customer() {}
+  public Customer() {
+  }
 
-  Customer(String name, Integer age) {
+  public Customer(String name, Integer age) {
     this.name = name;
     this.age = age;
   }
- 
+
   public Long getId() {
     return id;
   }
